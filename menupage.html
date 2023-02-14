@@ -1,0 +1,287 @@
+<!-- Sprint Week#1, Semester 2
+Team 2: David Turner, Makenzie Roberts & Kara Balsom
+Date Written: June 22, 2022 !-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gary Blue's Diner - Menu</title>
+    <link rel="stylesheet" href="./stylesheets/menupage.css" />
+    <script
+      src="https://kit.fontawesome.com/b0f96f318e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <div id="logo">
+        <a href="index.html"
+          ><img
+            id="logo-image"
+            src="./images/header-logo.svg"
+            alt="logo"
+            style="height: 100%; width: 100%; object-fit: contain"
+        /></a>
+      </div>
+      <nav>
+        <button id="menuLink" onclick="window.location.href='menupage.html';">
+          <span class="label">Our Menu</span>
+        </button>
+        <button
+          id="orderLink"
+          onclick="window.location.href='orderpage.html#order-header';"
+        >
+          <span class="label">Order Online</span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <div id="banner">
+        <div id="banner-overlay">
+          <img
+            id="splash-words"
+            src="./images/menu-splash-overlay.svg"
+            alt="Big Gary Slogan"
+          />
+        </div>
+      </div>
+
+      <div id="menu-header">
+        <h1>Menu</h1>
+      </div>
+
+      <div class="wrapper">
+        <div class="card" id="frenchtoast">
+          <div class="card-body">
+            <div class="card-img">
+              <img
+                class="images"
+                src="./images/frenchtoast.jpeg"
+                alt="Waffles"
+              />
+            </div>
+            <h1>French Toast</h1>
+            <p>
+              Fresh white bread dipped in eggs and fried to perfection. Served
+              with fresh seasonal fruit and a dollop of whipped cream.
+              Gluten-free bread available. $16.99
+            </p>
+          </div>
+        </div>
+
+        <div class="card" id="waffles">
+          <div class="card-body">
+            <div class="card-img">
+              <img class="images" src="./images/waffles.jpeg" alt="Waffles" />
+            </div>
+            <h1>Waffles</h1>
+            <p>
+              For when you want to start your day the right way! A stack of
+              three fluffly belgian waffles, served with fresh seasonal fruit
+              and maple syrup imported from Quebec. $16.99
+            </p>
+          </div>
+        </div>
+
+        <div class="card" id="baconeggs">
+          <div class="card-body">
+            <div class="card-img">
+              <img
+                class="images"
+                src="./images/baconeggs.jpeg"
+                alt="Eggs & Bacon"
+              />
+            </div>
+            <h1>Eggs & Bacon</h1>
+            <p>
+              A classic breakfast, you can't go wrong with eggs and bacon! Two
+              eggs made your way, and a side of bacon. Served with toast. $12.99
+            </p>
+          </div>
+        </div>
+
+        <div class="card" id="oatmeal">
+          <div class="card-body">
+            <div class="card-img">
+              <img class="images" src="./images/oatmeal.jpeg" alt="Oatmeal" />
+            </div>
+            <h1>Oatmeal</h1>
+            <p>
+              A healthy choice! A bowl of premium steel-cut oats, served with
+              your choice of blueberries, strawberries or both! Add honey or
+              sugar to make it your own. $12.99
+            </p>
+          </div>
+        </div>
+
+        <div class="card" id="bagels">
+          <div class="card-body">
+            <div class="card-img">
+              <img class="images" src="./images/bagels.jpeg" alt="Bagels" />
+            </div>
+            <h1>Bagels</h1>
+            <p>
+              Classic Montreal-style bagels, baked fresh in-house daily! A
+              choice of original, sesame seed, or blueberry. Served with plain
+              or strawberry cream cheese. $5.99 each
+            </p>
+          </div>
+        </div>
+
+        <div class="card" id="soup">
+          <div class="card-body">
+            <div class="card-img">
+              <img class="images" src="./images/soup.jpeg" alt="Soup" />
+            </div>
+            <h1>Soup of the Day</h1>
+            <p>
+              For when you need warming up! Ask your server what our soup of the
+              day is. Served with fresh roll and butter. $9.99
+            </p>
+          </div>
+        </div>
+
+        <div class="card" id="taters">
+          <div class="card-body">
+            <div class="card-img">
+              <img class="images" src="./images/taters.jpeg" alt="Taters" />
+            </div>
+            <h1>Taters</h1>
+            <p>
+              Gary's famous taters! Fresh Canadian potatoes, coated in our
+              special seasoning blend and fried until golden. Need we say more?
+              $6.99
+            </p>
+          </div>
+        </div>
+
+        <div class="card" id="biggary">
+          <div class="card-body">
+            <div class="card-img">
+              <img
+                class="images"
+                src="./images/biggary.jpeg"
+                alt="Big Gary Sandwich"
+              />
+            </div>
+            <h1>Big Gary Sandwich</h1>
+            <p>
+              It's what you all came for! Fresh Canadian chicken, breaded and
+              coated in our special seasoning blend, deep-fried to perfection!
+              Topped with lettuce, pickles, and smothered in Gary's secret
+              sauce. Served with a side of taters and a drink. $17.99
+            </p>
+          </div>
+        </div>
+
+        <div class="card" id="friedchicken">
+          <div class="card-body">
+            <div class="card-img">
+              <img
+                class="images"
+                src="./images/friedchicken.jpeg"
+                alt="Fried Chicken"
+              />
+            </div>
+            <h1>Fried Chicken</h1>
+            <p>
+              Not one, not two, but THREE pieces of our famous fried chicken!
+              Fresh Canadian chicken, breaded and coated in our special
+              seasoning blend, deep-fried until crispy. Served with a side of
+              taters and a drink. $18.99
+            </p>
+          </div>
+        </div>
+
+        <div class="card" id="chickenstrips">
+          <div class="card-body">
+            <div class="card-img">
+              <img
+                class="images"
+                src="./images/chickenstrips.jpeg"
+                alt="Chicken Strips"
+              />
+            </div>
+            <h1>Chicken Strips</h1>
+            <p>
+              For the little kid in you! Seven juicy chicken strips, breaded and
+              coated in our special seasoning blend and deep-fried until golden.
+              Comes with your choice of dipping sauce. Dunk away my friend!
+              Served with a side of taters and a drink. $18.99
+            </p>
+          </div>
+        </div>
+
+        <div class="card" id="caesarsalad">
+          <div class="card-body">
+            <div class="card-img">
+              <img
+                class="images"
+                src="./images/caesarsalad.jpeg"
+                alt="Caesar Salad"
+              />
+            </div>
+            <h1>Caesar Salad</h1>
+            <p>
+              Hey, we aren't here to judge. Sometimes you need to feel good
+              about your choices! Fresh iceberg lettuce, crunchy croutons, and
+              parmesan cheese, covered in a zesty Caesar dressing. Served with a
+              drink. $14.99
+            </p>
+          </div>
+        </div>
+
+        <div class="card" id="applepie">
+          <div class="card-body">
+            <div class="card-img">
+              <img
+                class="images"
+                src="./images/applepie.jpeg"
+                alt="Apple Pie"
+              />
+            </div>
+            <h1>Apple Pie</h1>
+            <p>
+              Somehow still hungry after all that delicious chicken? We got you!
+              Try a slice of our warm apple pie, made with Canadian apples, and
+              topped with cinnamon crumble and vanilla ice cream. The perfect
+              end to a perfect meal. $5.99
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div id="connect">
+        <div id="connect-header">
+          <h1>Connect with us!</h1>
+        </div>
+        <div id="links">
+          <img src="./images/icon-facebook.svg" alt="Facebook" />
+          <img src="./images/icon-instagram.svg" alt="Instagram" />
+          <img src="./images/icon-twitter.svg" alt="Twitter" />
+        </div>
+      </div>
+
+      <div id="location">
+        <div id="location-header"><h1>Visit Us!</h1></div>
+        <img src="./images/icon-location.svg" alt="Location" />
+      </div>
+
+      <div id="contact">
+        <div id="contact-header">
+          <h1>Contact us!</h1>
+        </div>
+        <div id="phone">
+          <h2>(709)-123-4567</h2>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

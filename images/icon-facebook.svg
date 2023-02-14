@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="12.170834mm"
+   height="12.170834mm"
+   viewBox="0 0 12.170834 12.170834"
+   version="1.1"
+   id="svg7003"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="icon-facebook.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7005"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="3.0930415"
+     inkscape:cx="-36.695272"
+     inkscape:cy="48.495954"
+     inkscape:window-width="1920"
+     inkscape:window-height="1006"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g7482" />
+  <defs
+     id="defs7000">
+    <filter
+       id="a"
+       width="23.431"
+       height="36.308998"
+       x="0"
+       y="0"
+       color-interpolation-filters="sRGB"
+       filterUnits="userSpaceOnUse">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood7437" />
+      <feColorMatrix
+         in="SourceAlpha"
+         result="hardAlpha"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+         id="feColorMatrix7439" />
+      <feOffset
+         dy="4"
+         id="feOffset7441" />
+      <feGaussianBlur
+         stdDeviation="2"
+         id="feGaussianBlur7443" />
+      <feComposite
+         in2="hardAlpha"
+         operator="out"
+         id="feComposite7445" />
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+         id="feColorMatrix7447" />
+      <feBlend
+         in2="BackgroundImageFix"
+         result="effect1_dropShadow_71_85"
+         id="feBlend7449"
+         mode="normal" />
+      <feBlend
+         in="SourceGraphic"
+         in2="effect1_dropShadow_71_85"
+         result="shape"
+         id="feBlend7451"
+         mode="normal" />
+    </filter>
+    <filter
+       id="a-3"
+       width="23.431"
+       height="36.309"
+       x="0"
+       y="0"
+       color-interpolation-filters="sRGB"
+       filterUnits="userSpaceOnUse">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood7692" />
+      <feColorMatrix
+         in="SourceAlpha"
+         result="hardAlpha"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+         id="feColorMatrix7694" />
+      <feOffset
+         dy="4"
+         id="feOffset7696" />
+      <feGaussianBlur
+         stdDeviation="2"
+         id="feGaussianBlur7698" />
+      <feComposite
+         in2="hardAlpha"
+         operator="out"
+         id="feComposite7700" />
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+         id="feColorMatrix7702" />
+      <feBlend
+         in2="BackgroundImageFix"
+         result="effect1_dropShadow_71_85"
+         id="feBlend7704" />
+      <feBlend
+         in="SourceGraphic"
+         in2="effect1_dropShadow_71_85"
+         result="shape"
+         id="feBlend7706" />
+    </filter>
+    <filter
+       id="a-1"
+       width="23.431"
+       height="36.309"
+       x="0"
+       y="0"
+       color-interpolation-filters="sRGB"
+       filterUnits="userSpaceOnUse">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood8143" />
+      <feColorMatrix
+         in="SourceAlpha"
+         result="hardAlpha"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+         id="feColorMatrix8145" />
+      <feOffset
+         dy="4"
+         id="feOffset8147" />
+      <feGaussianBlur
+         stdDeviation="2"
+         id="feGaussianBlur8149" />
+      <feComposite
+         in2="hardAlpha"
+         operator="out"
+         id="feComposite8151" />
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+         id="feColorMatrix8153" />
+      <feBlend
+         in2="BackgroundImageFix"
+         result="effect1_dropShadow_71_85"
+         id="feBlend8155" />
+      <feBlend
+         in="SourceGraphic"
+         in2="effect1_dropShadow_71_85"
+         result="shape"
+         id="feBlend8157" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-183.47449,-61.321265)">
+    <g
+       style="fill:none"
+       id="g7471"
+       transform="matrix(0.26458333,0,0,0.26458333,17.430228,93.398235)">
+      <path
+         fill="#ffffff"
+         d="m 18.383,15.923 0.812,-5.121 H 14.192 V 7.473 c 0,-1.4 0.699,-2.768 2.932,-2.768 h 2.307 V 0.345 A 28.165,28.165 0 0 0 15.37,0 C 11.252,0 8.564,2.456 8.564,6.897 v 3.905 H 4 v 5.12 H 8.564 V 28.31 h 5.628 V 15.923 h 4.19 z"
+         id="path7433"
+         style="filter:url(#a)" />
+    </g>
+    <g
+       style="fill:none"
+       id="g7482"
+       transform="matrix(0.26458333,0,0,0.26458333,183.47449,61.321265)">
+      <ellipse
+         cx="23"
+         cy="23"
+         fill="#af2f3c"
+         stroke="#af2f3c"
+         id="circle7473"
+         rx="22.499527"
+         ry="22.5" />
+      <g
+         style="fill:none"
+         id="g7726"
+         transform="translate(11.662454,4.8455017)">
+        <g
+           style="fill:none"
+           id="g8177"
+           transform="translate(-0.75473709,3.9419)">
+          <path
+             fill="#ffffff"
+             d="m 18.383,15.923 0.812,-5.121 H 14.192 V 7.473 c 0,-1.4 0.699,-2.768 2.932,-2.768 h 2.307 V 0.345 A 28.165,28.165 0 0 0 15.37,0 C 11.252,0 8.564,2.456 8.564,6.897 v 3.905 H 4 v 5.12 H 8.564 V 28.31 h 5.628 V 15.923 h 4.19 z"
+             id="path8139"
+             style="filter:url(#a-1)" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

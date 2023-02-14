@@ -1,0 +1,324 @@
+<!-- Sprint Week#1, Semester 2
+Team 2: David Turner, Makenzie Roberts & Kara Balsom
+Date Written: June 21, 2022 !-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gary Blue's- Order Page</title>
+    <link rel="stylesheet" href="./stylesheets/orderpage.css" />
+    <script src="./script/sprint1.js"></script>
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <a href="index.html"
+          ><img
+            id="logo-image"
+            src="./images/header-logo.svg"
+            alt="logo"
+            style="height: 100%; width: 100%; object-fit: contain"
+        /></a>
+      </div>
+      <nav>
+        <button id="menuLink" onclick="window.location.href='menupage.html';">
+          <span class="label">Our Menu</span>
+        </button>
+        <button
+          id="orderLink"
+          onclick="window.location.href='orderpage.html#order-header';"
+        >
+          <span class="label">Order Online</span>
+        </button>
+      </nav>
+    </header>
+    <main>
+      <div id="banner">
+        <div id="banner-gradient">
+          <div id="slogan">
+            <h1>
+              Family.<br />
+              Friends.<br />
+              Laughs.
+            </h1>
+          </div>
+        </div>
+      </div>
+
+      <div id="order-header">
+        <h1>Step 1: Create Your Order</h1>
+      </div>
+
+      <form id="flex">
+        <div id="form-buttons">
+          <input
+            type="button"
+            class="placeOrder reset_form button"
+            value="Reset Form"
+          />
+        </div>
+        <div id="orders">
+          <div id="orders-title">
+            <h1>Item Selection</h1>
+          </div>
+          <div id="labels">
+            <div id="item-label"><h1>Item</h1></div>
+            <div id="quantity-label"><h1>Quantity</h1></div>
+          </div>
+          <div class="line">
+            <div class="checkbox">
+              <input type="checkbox" name="eggsBacon" /> Eggs & Bacon
+            </div>
+            <div class="qty">
+              <select name="eggsBacon">
+                <option value="choose">0</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+                <option value="six">6</option>
+                <option value="seven">7</option>
+                <option value="eight">8</option>
+              </select>
+            </div>
+          </div>
+          <div class="line">
+            <div class="checkbox">
+              <input type="checkbox" name="waffles" />Waffles
+            </div>
+            <div class="qty">
+              <select name="waffles">
+                <option value="choose">0</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+                <option value="six">6</option>
+                <option value="seven">7</option>
+                <option value="eight">8</option>
+              </select>
+            </div>
+          </div>
+          <div class="line">
+            <div class="checkbox">
+              <input type="checkbox" name="frenchToast" />French Toast
+            </div>
+            <div class="qty">
+              <select name="frenchToast">
+                <option value="choose">0</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+                <option value="six">6</option>
+                <option value="seven">7</option>
+                <option value="eight">8</option>
+              </select>
+            </div>
+          </div>
+          <div class="line">
+            <div class="checkbox">
+              <input type="checkbox" name="oatmeal" />Oatmeal
+            </div>
+            <div class="qty">
+              <select name="oatmeal">
+                <option value="choose">0</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+                <option value="six">6</option>
+                <option value="seven">7</option>
+                <option value="eight">8</option>
+              </select>
+            </div>
+          </div>
+          <div class="line">
+            <div class="checkbox">
+              <input type="checkbox" name="bagels" />Bagels
+            </div>
+            <div class="qty">
+              <select name="bagels">
+                <option value="choose">0</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+                <option value="six">6</option>
+                <option value="seven">7</option>
+                <option value="eight">8</option>
+              </select>
+            </div>
+          </div>
+          <div class="line">
+            <div class="checkbox">
+              <input type="checkbox" name="caesarSalad" />Caesar Salad
+            </div>
+            <div class="qty">
+              <select name="caesarSalad">
+                <option value="choose">0</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+                <option value="six">6</option>
+                <option value="seven">7</option>
+                <option value="eight">8</option>
+              </select>
+            </div>
+          </div>
+          <div class="line">
+            <div class="checkbox">
+              <input type="checkbox" name="soup" />Soup
+            </div>
+            <div class="qty">
+              <select name="soup">
+                <option value="choose">0</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+                <option value="six">6</option>
+                <option value="seven">7</option>
+                <option value="eight">8</option>
+              </select>
+            </div>
+          </div>
+          <div class="line">
+            <div class="checkbox">
+              <input type="checkbox" name="bigGary" />Big Gary Burger
+            </div>
+            <div class="qty">
+              <select name="bigGary">
+                <option value="choose">0</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+                <option value="six">6</option>
+                <option value="seven">7</option>
+                <option value="eight">8</option>
+              </select>
+            </div>
+          </div>
+          <div class="line">
+            <div class="checkbox">
+              <input type="checkbox" name="taters" />Taters
+            </div>
+            <div class="qty">
+              <select name="taters">
+                <option value="choose">0</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+                <option value="six">6</option>
+                <option value="seven">7</option>
+                <option value="eight">8</option>
+              </select>
+            </div>
+          </div>
+          <div class="line">
+            <div class="checkbox">
+              <input type="checkbox" name="chickenStrips" />Chicken Strips
+            </div>
+            <div class="qty">
+              <select name="chickenStrips">
+                <option value="choose">0</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+                <option value="six">6</option>
+                <option value="seven">7</option>
+                <option value="eight">8</option>
+              </select>
+            </div>
+          </div>
+          <div class="line">
+            <div class="checkbox">
+              <input type="checkbox" name="friedChicken" />Fried Chicken
+            </div>
+            <div class="qty">
+              <select name="friedChicken">
+                <option value="choose">0</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+                <option value="six">6</option>
+                <option value="seven">7</option>
+                <option value="eight">8</option>
+              </select>
+            </div>
+          </div>
+          <div class="line" id="last">
+            <div class="checkbox">
+              <input type="checkbox" name="applePie" />Apple Pie
+            </div>
+            <div class="qty">
+              <select name="applePie">
+                <option value="choose">0</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+                <option value="six">6</option>
+                <option value="seven">7</option>
+                <option value="eight">8</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </form>
+
+      <div id="next">
+        <div id="next-link">
+          <a href="paymentpage.html#subheader">Next</a>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div id="connect">
+        <div id="connect-header">
+          <h1>Connect with us!</h1>
+        </div>
+        <div id="links">
+          <img src="./images/icon-facebook.svg" alt="Facebook" />
+          <img src="./images/icon-instagram.svg" alt="Instagram" />
+          <img src="./images/icon-twitter.svg" alt="Twitter" />
+        </div>
+      </div>
+
+      <div id="location">
+        <div id="location-header"><h1>Visit Us!</h1></div>
+        <img src="./images/icon-location.svg" alt="Location" />
+      </div>
+
+      <div id="contact">
+        <div id="contact-header">
+          <h1>Contact us!</h1>
+        </div>
+        <div id="phone">
+          <h2>(709)-123-4567</h2>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
